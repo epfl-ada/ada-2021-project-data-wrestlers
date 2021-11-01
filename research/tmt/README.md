@@ -14,3 +14,4 @@ topic modelling lda + nice plots: https://scikit-learn.org/stable/auto_examples/
 todo: 
 - score measure for pipeline -> hyperparam search
 - TopicTransformer.from_config(config)
+- save_model, load_model

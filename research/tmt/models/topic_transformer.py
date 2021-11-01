@@ -50,4 +50,10 @@ class TopicTransformer():
 
     def get_topics_words(self, n_top):
         return self.topic_modelling.get_topics_words(n_top)
+
+    def save_model(self, path):
+        pass
+
+    def load_model(self, path):
+        pass
     
