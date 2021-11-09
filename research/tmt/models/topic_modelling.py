@@ -26,14 +26,19 @@ class ClusterTopicModelling:
             topic_words.append([*zip(top_words, weights)])
         return topic_words
 
-    def fit(self, documents):
-        token_count = self.count_vectorizer.fit(documents)
-        self.model.fit(token_count)
-        
-    def fit(self, documents):
-        token_count = self.count_vectorizer.fit(documents)
-        return self.model.transform(token_count)
+    def get_token_count(self, documents):
+        token_count = self.vectorizer.fit_transform(documents)
+        if token_count.shape[1] == 1:
+            token_count = token_count.reshape(-1, 1)
+        elif token_count.shape[0] == 1:
+            token_count = token_count.reshape(1, -1)
+        return token_count
 
     def fit(self, documents):
-        token_count = self.count_vectorizer.fit(documents)
-        return self.model.fit_transform(token_count)
+        self.model.fit(self.get_token_count(documents))
+        
+    def fit(self, documents):
+        return self.model.transform(self.get_token_count(documents))
+
+    def fit(self, documents):
+        return self.model.fit_transform(self.get_token_count(documents))

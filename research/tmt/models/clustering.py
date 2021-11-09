@@ -12,9 +12,3 @@ class Hdbscan(HDBSCAN):
         super().__init__(*args, **kwargs)
         self.name = 'hdbscan'
         self.id_start = -1
-    
-    def fit_transform(self, *args, **kwargs):
-        return super().fit_predict(*args, **kwargs)
-
-    def transform(self, *args, **kwargs):
-        return hdbscan.approximate_predict(self, *args, **kwargs)
