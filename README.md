@@ -1,7 +1,7 @@
 # Donald Trump’s favorite topics
 
 ## Abstract
-The idea is to look at quotes from Donald Trump from during the 2016 presidential campaign and his time in office. We would then extract topics from these quotes, such as economics, ecology, etc. We would look at the percentage of speech allocated to each extracted topic and the most frequent words, and how it changes over time. The goal would be to identify events in the news which provoke changes in Trump’s speech (such as Covid). We would also see if there is a big difference in his favorite topics between before and after he is elected. Perhaps certain topics are talked about a lot during the campaign but are ignores after the election, or the opposite. We would then interpret this analysis by seeing how accurately speech reflects his political agenda.
+The idea is to look at quotes from Donald Trump from during the 2016 presidential campaign and his time in office. We would then extract topics from these quotes, such as economics, ecology, etc. We would look at the percentage of speech allocated to each extracted topic and the most frequent words, and how it changes over time. The goal would be to identify events in the news which provoke changes in Trump’s speech (such as Covid). We would also see if there is a big difference in his favorite topics between before and after his election. Perhaps certain topics are talked about a lot during the campaign but are ignores after the election, or the opposite. We would then interpret this analysis by seeing how accurately speech reflects his political agenda.
 
 ## Research Questions
 - **Trump's speech:**
