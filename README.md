@@ -2,7 +2,7 @@
 
 ## Abstract
 
-Our project focuses on the analysis of Donald Trump presidency through the quotes in the Quotebank dataset. The idea is to analyze quotes from and about Donald Trump during the 2016 presidential campaign and his time in office. We will use statistical models to extract topics from these quotes, such as economy, ecology, etc. and study their evolution over time, how they change, how they differ in the words of Trump and in the quotes about him. One goal is to identify events in the news which could be correlated with changes in Trump’s speech (such as Covid). We also plan to analyze the difference between his campaign and his mandate as well as how much his speech reflects his initial political agenda over time by observing topics rarefying and others emerging.
+Our project focuses on the analysis of Donald Trump's presidency through the quotes in the Quotebank dataset. The idea is to analyze quotes from and about Donald Trump during the 2016 presidential campaign and his time in office. We will use statistical models to extract topics from these quotes, such as economy, ecology, etc. and study their evolution over time, how they change, how they differ in the words of Trump and in the quotes about him. One goal is to identify events in the news which could be correlated with changes in Trump’s speech (such as Covid). We also plan to analyze the difference between his campaign and his mandate as well as how much his speech reflects his initial political agenda over time by observing topics rarefying and others emerging.
 
 ## Research Questions
 - **Trump's speech:**
@@ -20,6 +20,7 @@ Our project focuses on the analysis of Donald Trump presidency through the quote
 - [Political agenda during campaign](https://ballotpedia.org/Donald_Trump_presidential_campaign,_2020): used to compare with topics discussed during campaign
 - [Trump approval ratings](https://projects.fivethirtyeight.com/trump-approval-ratings/): used to compare with sentiment of speech about Trump
 - [Speaker metadata](https://drive.google.com/drive/folders/1VAFHacZFh0oxSxilgNByb1nlNsqznUf0): used to compare how different groups (ethnic, political, etc.) in the population talk about Trump
+
 The first three additional datasets will not be extracted but only used as comparison points.
 
 ## Methods
