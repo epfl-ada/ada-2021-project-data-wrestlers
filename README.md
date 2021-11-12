@@ -20,6 +20,7 @@ Our project focuses on the analysis of Donald Trump presidency through the quote
 - [Political agenda during campaign](https://ballotpedia.org/Donald_Trump_presidential_campaign,_2020): used to compare with topics discussed during campaign
 - [Trump approval ratings](https://projects.fivethirtyeight.com/trump-approval-ratings/): used to compare with sentiment of speech about Trump
 - [Speaker metadata](https://drive.google.com/drive/folders/1VAFHacZFh0oxSxilgNByb1nlNsqznUf0): used to compare how different groups (ethnic, political, etc.) in the population talk about Trump
+The first three additional datasets will not be extracted but only used as comparison points.
 
 ## Methods
 
@@ -35,6 +36,7 @@ The next steps that we are planning to take to investigate our research question
 6. We take the two groups (quotes from Trump and quotes about Trump) and extract their topics using LDA. Then, on each topic and on each group we apply the pre-trained sentiment analysis model and we compare between the two groups.
 
 Note that we already implemented the function to apply LDA on variable sized time chunks of quotes. It can be found at the end of  `notebook_milestone2_Trump_analysis.ipynb ` under the name `timechunk_lda()`.
+We started to inquire about the pre-trained sentiment analysis model and we thought about using Flair because it can take into account negation, intensifiers and can predict a sentiment that it has never seen before. Moreover its use seems accessible to us.
 
 ## Proposed timeline
 
